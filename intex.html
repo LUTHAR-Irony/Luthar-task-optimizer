@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luthar Task Optimizer</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Task Optimizer</h1>
+
+    <input type="text" id="taskInput" placeholder="Enter task">
+
+    <select id="category">
+        <option value="Work">Work</option>
+        <option value="Study">Study</option>
+        <option value="Personal">Personal</option>
+    </select>
+
+    <button onclick="addTask()" >Add Task</button>
+
+    <h3>Stats</h3>
+    <p>Total: <span id="total" >0</span> </p>
+    <p>Completed: <span id="Completed" >0</span> </p>
+    <p>Complition Rate: <span id="rate" >0%</span> </p>
+
+    <ul id="tasklist" ></ul>
+    <script src="script.js" ></script>
+</body>
+</html>
