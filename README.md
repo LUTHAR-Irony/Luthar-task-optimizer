@@ -16,6 +16,7 @@ This project reflects structured thinking and optimization - turning simple task
 - JavaScript
 
   ## Preview
+<img width="811" height="603" alt="image" src="https://github.com/user-attachments/assets/f6ad9799-48d6-4097-951e-396ef6f3d733" />
 
   ## Future Improvements
   - Local storage (save tasks)
